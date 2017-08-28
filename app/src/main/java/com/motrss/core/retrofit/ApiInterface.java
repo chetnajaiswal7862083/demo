@@ -61,7 +61,7 @@ public interface ApiInterface {
  /*   @POST("v1.2/requests/estimate?")
     Call<RequestEstimateFare> getRequestEstimateFare(@Header("Authorization") String auth,@Header("Content-Type") String auth1,@Query("product_id") String product_id, @Query("start_latitude") String apiKey, @Query("start_longitude") String lng, @Query("end_latitude") String lng1, @Query("end_longitude") String lng2,@Query("scopes") String lng3);
 */
-//
+
     @POST("v1.2/requests/estimate?")
     Call<RequestEstimateFare> getRequestEstimateFare( @Query("start_latitude") String apiKey, @Query("start_longitude") String lng, @Query("end_latitude") String lng1, @Query("end_longitude") String lng2);
 
